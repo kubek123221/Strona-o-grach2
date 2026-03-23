@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontakt - GameZone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Strona główna</a>
+    <a href="top-games.html">Top Gry</a>
+    <a href="gatunki.html">Gatunki</a>
+    <a href="newsy.html">Newsy</a>
+    <a href="recenzje.html">Recenzje</a>
+    <a href="poradniki.html">Poradniki</a>
+    <a href="sprzet.html">Sprzęt</a>
+    <a href="esport.html">E-Sport</a>
+    <a href="historia.html">Historia</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+
+  <header>
+    <h1>💬 Kontakt</h1>
+    <p>Napisz do nas - chętnie odpiszemy!</p>
+  </header>
+
+  <main>
+
+    <div class="kontakt-grid">
+
+      <div class="kontakt-lewa">
+        <h2>Formularz kontaktowy</h2>
+
+        <form id="formularz">
+          <label>Twoje imię lub nick:</label>
+          <input type="text" id="pole-imie" placeholder="np. SuperGracz99">
+          <p class="blad" id="blad-imie"></p>
+
+          <label>Twój adres e-mail:</label>
+          <input type="email" id="pole-email" placeholder="twoj@email.com">
+          <p class="blad" id="blad-email"></p>
+
+          <label>Temat wiadomości:</label>
+          <select id="pole-temat">
+            <option value="">-- Wybierz temat --</option>
+            <option>Błąd na stronie</option>
+            <option>Propozycja recenzji</option>
+            <option>Współpraca</option>
+            <option>Pytanie ogólne</option>
+            <option>Inne</option>
+          </select>
+          <p class="blad" id="blad-temat"></p>
+
+          <label>Treść wiadomości:</label>
+          <textarea id="pole-tresc" placeholder="Napisz tu swoją wiadomość..."></textarea>
+          <p class="blad" id="blad-tresc"></p>
+
+          <button type="button" id="przycisk-wyslij">Wyślij wiadomość</button>
+
+          <div id="sukces" class="sukces">
+            ✅ Wiadomość wysłana! Odezwiemy się wkrótce.
+          </div>
+        </form>
+      </div>
+
+      <div class="kontakt-prawa">
+        <h2>Dane kontaktowe</h2>
+
+        <div class="info-karta">
+          <p>📧 <strong>E-mail:</strong> kontakt@gamezone.pl</p>
+        </div>
+        <div class="info-karta">
+          <p>📱 <strong>Telefon:</strong> +48 123 456 789</p>
+        </div>
+        <div class="info-karta">
+          <p>🕐 <strong>Godziny pracy:</strong> Pon-Pt, 9:00 - 17:00</p>
+        </div>
+        <div class="info-karta">
+          <p>📍 <strong>Adres:</strong> ul. Gamingowa 1, Warszawa</p>
+        </div>
+
+        <h2 style="margin-top: 30px;">Social Media</h2>
+
+        <div class="info-karta social">
+          <a href="#">🎮 Discord - dołącz do serwera</a>
+        </div>
+        <div class="info-karta social">
+          <a href="#">📺 YouTube - oglądaj gameplay'e</a>
+        </div>
+        <div class="info-karta social">
+          <a href="#">🐦 Twitter / X - śledź newsy</a>
+        </div>
+        <div class="info-karta social">
+          <a href="#">📸 Instagram - zdjęcia i reels</a>
+        </div>
+      </div>
+
+    </div>
+
+    <br>
+
+    <h2>Gorące dyskusje na forum</h2>
+
+    <div class="siatka">
+
+      <div class="karta">
+        <h3>💬 GTA VI - kiedy premiera?</h3>
+        <p>Użytkownik: NightCrawler</p>
+        <p>142 odpowiedzi · Bardzo aktywny temat</p>
+      </div>
+
+      <div class="karta">
+        <h3>💬 Najlepszy build Druid w Diablo IV?</h3>
+        <p>Użytkownik: HellSlayer</p>
+        <p>87 odpowiedzi · Dodano 2 godziny temu</p>
+      </div>
+
+      <div class="karta">
+        <h3>💬 PC vs PlayStation 5 - co wybrać?</h3>
+        <p>Użytkownik: PixelKnight</p>
+        <p>203 odpowiedzi · Gorący temat</p>
+      </div>
+
+      <div class="karta">
+        <h3>💬 Kiedy wyjdzie Hollow Knight Silksong?</h3>
+        <p>Użytkownik: GhostBug</p>
+        <p>58 odpowiedzi · Dodano wczoraj</p>
+      </div>
+
+      <div class="karta">
+        <h3>💬 Polskie gry indie - co polecacie?</h3>
+        <p>Użytkownik: Krakowiak2137</p>
+        <p>31 odpowiedzi · Dodano 3 dni temu</p>
+      </div>
+
+      <div class="karta">
+        <h3>💬 RTX 5090 czy poczekać na kolejną generację?</h3>
+        <p>Użytkownik: CryptoGamer</p>
+        <p>115 odpowiedzi · Aktywna dyskusja</p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 <a href="index.html">GameZone</a> - Wszystkie prawa zastrzeżone.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
